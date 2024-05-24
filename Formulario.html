@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo de formularios</title>
+</head>
+<body>
+    <h1>Registro de calificaciones</h1>
+    
+    <form action="./Carrera.html" method="get" name="Calificaciones">
+        <label for="nombre">Nombre del estudiante : </label>
+        <input type="text" name="nombre" 
+        placeholder="Ej. Luis Alberto"
+        autocomplete="off" size="25" maxlength="25">
+        <br>
+        <label for="app">Apellido Paterno : </label>
+        <input type="text" name="app" placeholder="ej. Mendoza"
+        autocomplete="off" size="25" maxlength="25">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Password"
+        min="10">
+        <br>
+        <input type="hidden" name="oculto" value="5">
+        <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>
