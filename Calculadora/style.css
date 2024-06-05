@@ -8,22 +8,23 @@
     color: #fff;
 }
 .title{
-    font-size: 50px;
-    margin-bottom: 20px;
+    font-size: 4rem;
+    margin-bottom: 2rem;
     text-align: center;
     font-weight: bold;
 }
 .subtitle{
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
     text-align: center;
 }
 .input{
-    width: 90%;
-    padding: 10px;
-    border-width: 2px;
+    width: 80vw;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-width: 2%;
     border-color: rgba(0, 0, 0, 0.539);
-    border-radius: 7px;
+    border-radius: 3%;
     border-style:solid;
 }
 .button{
@@ -35,3 +36,25 @@
     color: #fff;
     cursor: pointer;
 }
+.botonera{
+    display: flex;
+}
+
+@media (max-width:768px){
+    .botonera{
+        display: flex;
+        flex-direction: column;
+    }  
+    .button{
+        margin: 0%;
+        width: 85vw;
+    }  
+}
+
+/*
+    padding: 10%  Porcentaje del tamaño del contenedor.;
+    padding: 10vw Porcentaje del ancho de la ventana gráfica.;
+    padding: 10vh  Porcentaje del alto de la ventana gráfica.
+    padding: 10em  Tamaño de fuente relativo al tamaño de fuente del elemento padre.
+    padding: 10rem  Tamaño de fuente relativo a la raíz del documento.
+*/
