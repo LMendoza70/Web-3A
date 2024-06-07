@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Practica Validacion</h1>
+        <h2>Formulario de regitro...</h2>
+        <form action="" method="get">
+            <label for="name">Nombre : </label><br>
+            <input type="text" name="name" 
+            id="name" placeholder="Nombre"
+            maxlength="25" required><br>
+
+            <label for="app">Apellido Paterno : </label><br>
+            <input type="text" name="app" id="app"
+            placeholder="Apellido Paterno"
+            maxlength="25" required><br>
+            
+            <label for="apm">Apellido Materno : </label><br>
+            <input type="text" name="apm" id="apm"
+            placeholder="Apellido Materno"
+            maxlength="25" required><br>
+
+            <label for="fch">Fecha de nacimiento : </label><br>
+            <input type="date" name="fch" id="fch" required><br>
+
+            <label for="edad">Edad : </label><br>
+            <input type="number" name="edad" id="edad"
+            placeholder="de 18 a 99 años" required
+            min="18" max="99" maxlength="2" step="3"><br>
+            
+            <label for="tel">Telefono : </label><br>
+            <input type="tel" maxlength="10" minlength="10" 
+            placeholder="Numero de 10 caracteres"><br>
+
+            <label for="email">Email : </label><br>
+            <input type="email" name="email" id="email" required
+            placeholder="example@example.com" maxlength="75"><br>
+
+            <label for="user">Usuario : </label><br>
+            <input type="text" required maxlength="20"
+            placeholder="Usuario"><br>
+
+            <label for="pass">Password : </label><br>
+            <input type="password" name="pass" id="pass"
+            placeholder="Password" required maxlength="20"
+            minlength="8"><br>
+
+            <label for="pass2">Confirma tu Password : </label><br>
+            <input type="password" name="pass2" id="pass2"
+            placeholder="Password" required maxlength="20"
+            minlength="8"><br>
+
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>

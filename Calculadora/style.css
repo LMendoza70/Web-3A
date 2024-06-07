@@ -50,11 +50,3 @@
         width: 85vw;
     }  
 }
-
-/*
-    padding: 10%  Porcentaje del tamaño del contenedor.;
-    padding: 10vw Porcentaje del ancho de la ventana gráfica.;
-    padding: 10vh  Porcentaje del alto de la ventana gráfica.
-    padding: 10em  Tamaño de fuente relativo al tamaño de fuente del elemento padre.
-    padding: 10rem  Tamaño de fuente relativo a la raíz del documento.
-*/
